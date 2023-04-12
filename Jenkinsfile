@@ -28,13 +28,5 @@ pipeline
             }
         }
 
-        post
-        {
-        failure
-        {
-            emailext body: 'summery', recipientProviders: [contributor()], subject: 'pipeline status', to: 'basava.tarun@gmail.com'
-        }
     }
-  }
-}    
-    
+}

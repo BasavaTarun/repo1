@@ -7,7 +7,7 @@ This repository contains some sample programs. All are Maven projects and can be
 
 ## How to build
 
-Run `mvn clean install` to build all sample programs
+Run `mvn clean install` to build all sample programs a
 
 ## License
 
